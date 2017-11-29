@@ -26,7 +26,7 @@ class YandexMusicTest < Minitest::Test
 
   def test_must_return_yandex_embed_code
     good_tracks_list.each do |track|
-      new_track = YandexMusic.new(track, class: 'row')
+      new_track = YandexMusic.new(track)
       assert_equal new_track.embed_code, '<iframe src="https://music.yandex.ru/iframe/#track/13301302" frameborder="0" width="100%" height="100" style="border:none;width:100%;height:100px;"></iframe>'
     end
   end
