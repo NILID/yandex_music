@@ -16,6 +16,10 @@ audio = YandexMusic.new('https://music.yandex.ru/album/3113802/track/13301302')
 # audio.embed_code     => <iframe src="https://music.yandex.ru/iframe/#track/13301302" frameborder="0" width="100%" height="100" style="border:none;width:100%;height:100px;"></iframe>
 ```
 
+## Demo
+
+Demo [running on Heroku](https://yandex-music-example.herokuapp.com/).
+
 ## License
 
 MIT License.
